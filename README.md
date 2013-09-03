@@ -11,7 +11,7 @@ Version: 0.000 in [angular degrees version notation](http://isprogrammingeasy.bl
 
 #Example
 
-    require "pathrecorder"
+    local PathRecorder = require "pathrecorder"
 
     -- In this example we won't process paths, so we set no callback.
     local pathrecorder = PathRecorder(nil)
@@ -27,4 +27,4 @@ Version: 0.000 in [angular degrees version notation](http://isprogrammingeasy.bl
     end
 
 
-See 'pathrecorder.lua' for more information.
+See [pathrecorder.lua](https://github.com/bvssvni/love2d-pathrecorder/blob/master/pathrecorder.lua) for more information.
