@@ -42,7 +42,7 @@ The path format is xyxyxyxyxyxyxyx...
 
 --]]
 
-function PathRecorder(callbackFunction)
+local function PathRecorder(callbackFunction)
   local obj = {path = {}, active = false, callback = callbackFunction, button = "l"}
   
   function obj.Update()
@@ -75,3 +75,4 @@ function PathRecorder(callbackFunction)
   return obj
 end
 
+return PathRecorder
